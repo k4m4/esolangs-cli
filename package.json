@@ -1,0 +1,41 @@
+{
+  "name": "esolangs-cli",
+  "version": "1.0.0",
+  "description": "Detect and execute esoteric programming language code, right from your terminal.",
+  "license": "MIT",
+  "repository": "k4m4/esolangs-cli",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "https://nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "bin": {
+    "esolang": "cli.js",
+    "esolangs": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "esoteric",
+    "esolangs",
+    "brainfuck",
+    "cli"
+  ],
+  "files": [
+    "cli.js"
+  ],
+  "devDependencies": {
+    "ava": "*"
+  },
+  "dependencies": {
+    "esolangs": "^1.0.2",
+    "execa": "^0.10.0",
+    "get-stdin": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "meow": "^4.0.1"
+  }
+}

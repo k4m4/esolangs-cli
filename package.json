@@ -1,6 +1,6 @@
 {
   "name": "esolangs-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect and execute esoteric programming language code, right from your terminal.",
   "license": "MIT",
   "repository": "k4m4/esolangs-cli",
